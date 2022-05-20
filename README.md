@@ -1,0 +1,2 @@
+# Safebox
+SafeBox Coin
