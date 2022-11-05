@@ -170,7 +170,7 @@ public:
         consensus.nMaxProposalPayments = 6;
 
         // spork keys
-        consensus.strSporkPubKey = "04a16e2cda855959bc1b781f9933c0409dfbe6dadf29bed44c4db5616a0e5de098f6aee22d411e5437a1e540a47a2387923983c872a81f8a4a9fc83b3de5a7d84e";
+        consensus.strSporkPubKey = "035c2bb34b4161fa2558fe74e2d12eb747226cd7c2af667a5fcec494a9542db1b3";
         consensus.strSporkPubKeyOld = consensus.strSporkPubKey;
         consensus.nTime_EnforceNewSporkKey = 1608512400;    //!> December 21, 2020 01:00:00 AM GMT
         consensus.nTime_RejectOldSporkKey = std::numeric_limits<int>::max();
