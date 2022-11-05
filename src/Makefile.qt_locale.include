@@ -1,0 +1,14 @@
+QT_TS = \
+  qt/locale/safebox_de.ts \
+  qt/locale/safebox_en.ts \
+  qt/locale/safebox_en_US.ts \
+  qt/locale/safebox_es.ts \
+  qt/locale/safebox_es_ES.ts \
+  qt/locale/safebox_fr_FR.ts \
+  qt/locale/safebox_hr_HR.ts \
+  qt/locale/safebox_it.ts \
+  qt/locale/safebox_ko_KR.ts \
+  qt/locale/safebox_nl.ts \
+  qt/locale/safebox_pl.ts \
+  qt/locale/safebox_ru.ts \
+  qt/locale/safebox_zh_CN.ts
