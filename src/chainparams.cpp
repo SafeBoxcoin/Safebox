@@ -196,7 +196,7 @@ public:
         consensus.ZC_MaxSpendsPerTx = 7;            // Assume about 20kb each input
         consensus.ZC_MinMintConfirmations = 20;
         consensus.ZC_MinMintFee = 1 * CENT;
-        consensus.ZC_MinStakeDepth = 200;
+        consensus.ZC_MinStakeDepth = 400;
         consensus.ZC_TimeStart = 1508214600; //Start nVersion=4 blocks
 
         // Network upgrades
@@ -204,7 +204,7 @@ public:
                 Consensus::NetworkUpgrade::ALWAYS_ACTIVE;
         consensus.vUpgrades[Consensus::UPGRADE_TESTDUMMY].nActivationHeight =
                 Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
-        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight           = 201;
+        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight           = 401;
         consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight        = 1;
         consensus.vUpgrades[Consensus::UPGRADE_ZC].nActivationHeight            = std::numeric_limits<int>::max();
         consensus.vUpgrades[Consensus::UPGRADE_ZC_V2].nActivationHeight         = std::numeric_limits<int>::max();
